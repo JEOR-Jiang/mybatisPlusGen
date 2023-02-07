@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>mybatisPlusGen</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <spring-boot.version>2.5.4</spring-boot.version>
+        <spring-cloud.version>2020.0.3</spring-cloud.version>
+        <spring-cloud-alibaba.version>2021.1</spring-cloud-alibaba.version>
+        <alibaba.nacos.version>2.0.3</alibaba.nacos.version>
+        <spring-boot-admin.version>2.5.1</spring-boot-admin.version>
+        <spring-boot.mybatis>2.2.0</spring-boot.mybatis>
+        <swagger.fox.version>3.0.0</swagger.fox.version>
+        <swagger.core.version>1.6.2</swagger.core.version>
+        <tobato.version>1.27.2</tobato.version>
+        <kaptcha.version>2.3.2</kaptcha.version>
+        <pagehelper.boot.version>1.3.1</pagehelper.boot.version>
+        <druid.version>1.2.6</druid.version>
+        <dynamic-ds.version>3.4.1</dynamic-ds.version>
+        <commons.io.version>2.11.0</commons.io.version>
+        <commons.fileupload.version>1.4</commons.fileupload.version>
+        <velocity.version>1.7</velocity.version>
+        <fastjson.version>1.2.76</fastjson.version>
+        <minio.version>8.2.2</minio.version>
+        <poi.version>3.17</poi.version>
+        <common-pool.version>2.10.0</common-pool.version>
+        <commons-collections.version>3.2.2</commons-collections.version>
+
+        <flowable.version>6.7.0</flowable.version>
+        <mybatis-plus-boot-starter.version>3.4.2</mybatis-plus-boot-starter.version>
+        <mybatis-plus-generator.version>3.4.1</mybatis-plus-generator.version>
+        <mysql-connector-java.version>8.0.23</mysql-connector-java.version>
+        <druid-spring-boot-starter.version>1.2.5</druid-spring-boot-starter.version>
+        <lombok.version>1.18.18</lombok.version>
+        <flow.version>1.1.0-SNAPSHOT</flow.version>
+        <aliyun-oss-version>3.8.0</aliyun-oss-version>
+        <freemarker.version>2.3.30</freemarker.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql-connector-java.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
+            <version>${freemarker.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>${mybatis-plus-boot-starter.version}</version>
+        </dependency>
+
+        <!--mybatis-plus 代码生成器依赖-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-generator</artifactId>
+            <version>${mybatis-plus-generator.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>

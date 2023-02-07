@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.xxxx.mapper.TMarketProjectMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="org.example.xxxx.entity.TMarketProject">
+        <id column="id" property="id" />
+        <result column="project_code" property="projectCode" />
+        <result column="project_name" property="projectName" />
+        <result column="business_type" property="businessType" />
+        <result column="service_mode" property="serviceMode" />
+        <result column="open_bidding" property="openBidding" />
+        <result column="new_renewed" property="newRenewed" />
+        <result column="increment_stock" property="incrementStock" />
+        <result column="big_area_code" property="bigAreaCode" />
+        <result column="region_area_code" property="regionAreaCode" />
+        <result column="status" property="status" />
+        <result column="project_phase" property="projectPhase" />
+        <result column="reason" property="reason" />
+        <result column="case_pro" property="casePro" />
+        <result column="industry_committee" property="industryCommittee" />
+        <result column="create_by" property="createBy" />
+        <result column="create_time" property="createTime" />
+        <result column="update_by" property="updateBy" />
+        <result column="update_time" property="updateTime" />
+        <result column="is_delete" property="isDelete" />
+        <result column="process_instance_id" property="processInstanceId" />
+        <result column="process_task_id" property="processTaskId" />
+        <result column="process_node_id" property="processNodeId" />
+        <result column="dwelling_sub_attribute" property="dwellingSubAttribute" />
+        <result column="original_project_id" property="originalProjectId" />
+        <result column="group_id" property="groupId" />
+        <result column="score" property="score" />
+        <result column="scoring" property="scoring" />
+        <result column="reduce" property="reduce" />
+        <result column="be_overdue" property="beOverdue" />
+        <result column="be_overdue_todo" property="beOverdueTodo" />
+        <result column="handle_date" property="handleDate" />
+        <result column="charge_type" property="chargeType" />
+        <result column="has_quas_show" property="hasQuasShow" />
+    </resultMap>
+
+</mapper>
